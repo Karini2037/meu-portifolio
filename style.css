@@ -12,8 +12,8 @@ html, body{
     background-color:rgba(62, 63, 64, 0.60);
     font-family: "Playfair Display", serif;
     overflow-x: hidden;
-    display: grid;
-    align-content: space-between;
+    /*display: grid;
+    align-content: space-between;*/
 }
 
 header {
@@ -433,7 +433,7 @@ footer {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     .menu-container{
        position: relative;
@@ -678,7 +678,187 @@ footer {
 }
 
 
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    
+header nav {
+    display: flex;
+    justify-content: center;/* Alterando para espaço a logo e o menu*/
+    align-items: center;
+    padding: 10px 20px;
+   
+}
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 0; /*para alinhar o menu a direita */
+}
+
+main {
+    max-width: 700px;
+    
+}
+
+.apresentacao {
+    width: 700px;
+    height: 300px;
+}
+
+.apresentacao p {
+    font-size: 1.2rem;
+    padding: 30px;
+}
+
+.apresentacao h1 {
+    padding-left: 30px;
+}
+
+.foto img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50% 20% 30% 20%;
+    box-shadow: 5px 10px 5px  rgba(0, 0, 0, 0.538);
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.sobremim {
+    width: 700px;
+    
+}
+
+.sobremim h1 {
+    padding: 30px 0px 0px 30px;
+    font-size: 2rem;
+}
+
+.sobremim h2 {
+    padding: 30px 0px 0px 20px;
+    font-size: 1.5rem;
+}
+
+
+.sobremim p {
+    font-size: 1rem;
+    padding: 30px 0px 0px 20px;
+   
+}
+
+.itens {
+    width: 700px;
+}
+
+.itens h2 {
+    padding-top: 30px;
+}
+
+.linguagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* Ajuste a largura para ter duas colunas */
+    padding: 50px 0px 0px 20px;
+    position: relative;
+}
+
+.img_icon {
+  width: 40px;
+  position: absolute;
+  top: 5rem;
+  left: 4rem;
+  padding-left: 10px;
+ 
+}
+
+.container_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa_imagem_loginflor {
+    width: 700px;
+     height: 500px;
+    margin: 50px;
+}
+
+.caixa_imagem_loginflor img{
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.caixa_imagem_logintela {
+     width: 700px;
+     height: 500px;  
+     margin: 50px;
+ }
+
+ .caixa_imagem_logintela img {
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.caixa_imagem_contador {
+    width: 700px;
+    height: 500px;
+}
+
+.caixa_imagem_contador img {
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.grupo_links ul a {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/*.contato {
+    width: 120px;
+    background-color: #7E9ABF;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin: 30px 0px 0px 30px;
+    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.533);
+}*/
+
+/*picture {
+    position: relative;
+}*/
+
+/*.imagem {
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}*/
+
+
+
+
+/*.redes {
+    padding-top: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+
+}*/
+
+/*.redes img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}*/
+
+}
 
 
 /*
